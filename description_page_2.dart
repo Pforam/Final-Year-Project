@@ -3,15 +3,15 @@ import 'package:main_app/homepage.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DescriptionPageOne(),
+      home: DescriptionPageTwo(),
     ));
 
-class DescriptionPageOne extends StatefulWidget {
+class DescriptionPageTwo extends StatefulWidget {
   @override
-  _DescriptionPageOneState createState() => _DescriptionPageOneState();
+  _DescriptionPageTwoState createState() => _DescriptionPageTwoState();
 }
 
-class _DescriptionPageOneState extends State<DescriptionPageOne> {
+class _DescriptionPageTwoState extends State<DescriptionPageTwo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +32,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       decoration: ShapeDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                              "assets/images/house_1.jpg"), // Replace with your actual asset image path
+                              "assets/images/house_2.jpg"), // Replace with your actual asset image path
                           fit: BoxFit.fill,
                         ),
                         shape: RoundedRectangleBorder(
@@ -93,7 +93,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       bottom: 20, // Adjust the bottom position as needed
                       left: 20, // Adjust the left position as needed
                       child: Text(
-                        'The Patel House',
+                        'The Agarwal House',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
@@ -176,7 +176,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                  "assets/images/profile_image.png"), // Replace with your actual asset image path
+                                  "assets/images/man_1.png"), // Replace with your actual asset image path
                               fit: BoxFit.fill,
                             ),
                           ),
@@ -186,7 +186,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Gauri Patel',
+                              'Anand Agarwal',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 16,
@@ -208,7 +208,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           ],
                         ),
                         SizedBox(
-                          width: 140,
+                          width: 120,
                         ),
                         Opacity(
                           opacity: 0.30,
@@ -291,74 +291,71 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                   alignment: Alignment.centerLeft,
                   child: Padding(
                     padding: const EdgeInsets.only(left: 20.0),
-                    child: SingleChildScrollView(
-                      scrollDirection: Axis.horizontal,
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_1.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 85,
+                          height: 75,
+                          decoration: ShapeDecoration(
+                            image: DecorationImage(
+                              image: AssetImage("assets/images/house_2.jpg"),
+                              fit: BoxFit.fill,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
                             ),
                           ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_2.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Container(
+                          width: 85,
+                          height: 75,
+                          decoration: ShapeDecoration(
+                            image: DecorationImage(
+                              image: AssetImage("assets/images/house_3.jpg"),
+                              fit: BoxFit.fill,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
                             ),
                           ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_3.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Container(
+                          width: 85,
+                          height: 75,
+                          decoration: ShapeDecoration(
+                            image: DecorationImage(
+                              image: AssetImage("assets/images/house_4.jpg"),
+                              fit: BoxFit.fill,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
                             ),
                           ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_4.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Container(
+                          width: 85,
+                          height: 75,
+                          decoration: ShapeDecoration(
+                            image: DecorationImage(
+                              image: AssetImage("assets/images/house_5.jpg"),
+                              fit: BoxFit.fill,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
                             ),
                           ),
-                          // Add more widgets or images as needed
-                        ],
-                      ),
+                        ),
+                        // Add more widgets or images as needed
+                      ],
                     ),
                   ),
                 ),
@@ -368,7 +365,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    'E-206 Mapple Hills,\nAlkapuri road,\nVadodara',
+                    'G-5 Sujata Towers,\nGotri road,\nVadodara',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
@@ -401,7 +398,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                         Row(
                           children: [
                             Text(
-                              'Rp. 7000 / month',
+                              'Rp. 10,000 / month',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,
@@ -411,7 +408,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                               ),
                             ),
                             SizedBox(
-                              width: 115,
+                              width: 100,
                             ),
                             Container(
                                 width: 122,

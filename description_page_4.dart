@@ -3,15 +3,15 @@ import 'package:main_app/homepage.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DescriptionPageOne(),
+      home: DescriptionPageFour(),
     ));
 
-class DescriptionPageOne extends StatefulWidget {
+class DescriptionPageFour extends StatefulWidget {
   @override
-  _DescriptionPageOneState createState() => _DescriptionPageOneState();
+  _DescriptionPageFourState createState() => _DescriptionPageFourState();
 }
 
-class _DescriptionPageOneState extends State<DescriptionPageOne> {
+class _DescriptionPageFourState extends State<DescriptionPageFour> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +32,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       decoration: ShapeDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                              "assets/images/house_1.jpg"), // Replace with your actual asset image path
+                              "assets/images/house_4.jpg"), // Replace with your actual asset image path
                           fit: BoxFit.fill,
                         ),
                         shape: RoundedRectangleBorder(
@@ -93,7 +93,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       bottom: 20, // Adjust the bottom position as needed
                       left: 20, // Adjust the left position as needed
                       child: Text(
-                        'The Patel House',
+                        'Jason ville',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
@@ -130,7 +130,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                         children: [
                           TextSpan(
                             text:
-                                'Spacious room with abundant natural light from large window. Unfurnished, offering a blank canvas for your vision. Versatile space adapts to various needs...',
+                                'Large, unfurnished room that provides a blank canvas for your ideas. Flexible space accommodates a range of needs...',
                             style: TextStyle(
                               color: Color(0xFF7A7878),
                               fontSize: 13,
@@ -186,7 +186,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Gauri Patel',
+                              'Jason',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 16,
@@ -300,55 +300,55 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                             height: 75,
                             decoration: ShapeDecoration(
                               image: DecorationImage(
-                                image: AssetImage("assets/images/house_1.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_2.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
-                                image: AssetImage("assets/images/house_3.jpg"),
-                                fit: BoxFit.fill,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Container(
-                            width: 85,
-                            height: 75,
-                            decoration: ShapeDecoration(
-                              image: DecorationImage(
                                 image: AssetImage("assets/images/house_4.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Container(
+                            width: 85,
+                            height: 75,
+                            decoration: ShapeDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/images/house_5.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Container(
+                            width: 85,
+                            height: 75,
+                            decoration: ShapeDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/images/house_6.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Container(
+                            width: 85,
+                            height: 75,
+                            decoration: ShapeDecoration(
+                              image: DecorationImage(
+                                image: AssetImage("assets/images/house_7.jpg"),
                                 fit: BoxFit.fill,
                               ),
                               shape: RoundedRectangleBorder(
@@ -368,7 +368,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    'E-206 Mapple Hills,\nAlkapuri road,\nVadodara',
+                    'A-3 Sky Heights,\nBManjalpur road,\nVadodara',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
@@ -401,7 +401,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                         Row(
                           children: [
                             Text(
-                              'Rp. 7000 / month',
+                              'Rp. 15,000 / month',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,

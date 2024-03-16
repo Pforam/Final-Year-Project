@@ -3,15 +3,15 @@ import 'package:main_app/homepage.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DescriptionPageOne(),
+      home: DescriptionPageSix(),
     ));
 
-class DescriptionPageOne extends StatefulWidget {
+class DescriptionPageSix extends StatefulWidget {
   @override
-  _DescriptionPageOneState createState() => _DescriptionPageOneState();
+  _DescriptionPageSixState createState() => _DescriptionPageSixState();
 }
 
-class _DescriptionPageOneState extends State<DescriptionPageOne> {
+class _DescriptionPageSixState extends State<DescriptionPageSix> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +32,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       decoration: ShapeDecoration(
                         image: DecorationImage(
                           image: AssetImage(
-                              "assets/images/house_1.jpg"), // Replace with your actual asset image path
+                              "assets/images/house_6.jpg"), // Replace with your actual asset image path
                           fit: BoxFit.fill,
                         ),
                         shape: RoundedRectangleBorder(
@@ -93,7 +93,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                       bottom: 20, // Adjust the bottom position as needed
                       left: 20, // Adjust the left position as needed
                       child: Text(
-                        'The Patel House',
+                        'Singh palace',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
@@ -130,7 +130,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                         children: [
                           TextSpan(
                             text:
-                                'Spacious room with abundant natural light from large window. Unfurnished, offering a blank canvas for your vision. Versatile space adapts to various needs...',
+                                'Generous, unfurnished space that provides an empty canvas for your ideas. Flexible area accommodates a range of requirements....',
                             style: TextStyle(
                               color: Color(0xFF7A7878),
                               fontSize: 13,
@@ -176,7 +176,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                  "assets/images/profile_image.png"), // Replace with your actual asset image path
+                                  "assets/images/man_2.png"), // Replace with your actual asset image path
                               fit: BoxFit.fill,
                             ),
                           ),
@@ -186,7 +186,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Gauri Patel',
+                              'Rajat Singh',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 16,
@@ -300,7 +300,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                             height: 75,
                             decoration: ShapeDecoration(
                               image: DecorationImage(
-                                image: AssetImage("assets/images/house_1.jpg"),
+                                image: AssetImage("assets/images/house_6.jpg"),
                                 fit: BoxFit.fill,
                               ),
                               shape: RoundedRectangleBorder(
@@ -316,7 +316,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                             height: 75,
                             decoration: ShapeDecoration(
                               image: DecorationImage(
-                                image: AssetImage("assets/images/house_2.jpg"),
+                                image: AssetImage("assets/images/house_7.jpg"),
                                 fit: BoxFit.fill,
                               ),
                               shape: RoundedRectangleBorder(
@@ -332,7 +332,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                             height: 75,
                             decoration: ShapeDecoration(
                               image: DecorationImage(
-                                image: AssetImage("assets/images/house_3.jpg"),
+                                image: AssetImage("assets/images/house_8.jpg"),
                                 fit: BoxFit.fill,
                               ),
                               shape: RoundedRectangleBorder(
@@ -348,7 +348,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                             height: 75,
                             decoration: ShapeDecoration(
                               image: DecorationImage(
-                                image: AssetImage("assets/images/house_4.jpg"),
+                                image: AssetImage("assets/images/house_9.jpg"),
                                 fit: BoxFit.fill,
                               ),
                               shape: RoundedRectangleBorder(
@@ -368,7 +368,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    'E-206 Mapple Hills,\nAlkapuri road,\nVadodara',
+                    'A-504 Vaikunth Flats,\nChhani road,\nVadodara',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
@@ -401,7 +401,7 @@ class _DescriptionPageOneState extends State<DescriptionPageOne> {
                         Row(
                           children: [
                             Text(
-                              'Rp. 7000 / month',
+                              'Rp. 9000 / month',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,
